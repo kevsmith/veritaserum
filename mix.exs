@@ -61,7 +61,7 @@ defmodule Veritaserum.Mixfile do
 
   defp deps do
     [
-      {:jason, "~> 1.0"},
+      {:jason, "~> 1.2"},
       {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
